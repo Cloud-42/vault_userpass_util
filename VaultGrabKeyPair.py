@@ -41,7 +41,6 @@ def _vaultcreds():
     list_roles_response = client.secrets.aws.list_roles(mount_point='customaws')
     list_user_roles = list_roles_response['data']['keys']
     length = len(list_user_roles)
-    terminal_menu = list_user_roles
     for i in range(length):
       print("ROLE: " + list_user_roles[i] + " - available ")
     role = input("Type the role to use: ")
