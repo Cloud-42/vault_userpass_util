@@ -8,8 +8,6 @@ import getpass
 vault_addr = os.getenv('VAULT_ADDR')
 
 def _check_aws_cli():
-  #terminal_menu = TerminalMenu(["entry 1", "entry 2", "entry 3"])
-  #choice_index = terminal_menu.show()
   home = expanduser("~")
   awsconfigfile = os.path.exists(home + '/.aws/config') 
   awscredsfile = os.path.exists(home + '/.aws/credentials')
