@@ -42,7 +42,7 @@ def _vaultcreds():
     for i in range(length):
       print("ROLE: " + list_user_roles[i] + " - available ")
     role = input("Type the role to use: ")
-    gen_creds_response = client.secrets.aws.generate_credentials(name=role.strip())
+    gen_creds_response = client.secrets.aws.generate_credentials(name=role.strip(), mount_point='customaws')
     access=gen_creds_response['data']['access_key']
     secret=gen_creds_response['data']['secret_key']
     print("Generated access / secret keys:\n" +
