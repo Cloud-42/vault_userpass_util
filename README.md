@@ -28,5 +28,5 @@ The following will be returned if authentication is successful:
 * export AWS\_ACCESS\_KEY\_ID=ABCDEFGHILCZRG2MLYYS
 * export AWS\_SECRET\_ACCESS\_KEY=aBCY/YTHJko1XXBfnLJEFNL8IHwhZk/hlFwcgzaHX
 
-Running these as is will add the access key and secret key for the current session. Adding the value to ~/.bashrc and running -> source ~/.bashrc -> will add to all bash sessions. The key pair can be added to an aws cli profile by running -> aws configure --profile=PROFILE\_NAME.
+Running these as is will add the access key and secret key to the current session. Adding the values to ~/.bashrc and running -> source ~/.bashrc -> will add to all bash sessions. The key pair can be added to an aws cli profile by running -> aws configure --profile=PROFILE\_NAME.
 
