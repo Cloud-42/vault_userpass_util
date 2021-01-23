@@ -23,10 +23,10 @@ Python3 script. Authenticates against a Hashicorp Vault endpoint using username 
 * sudo cp VaultGrabKeyPair.py /usr/local/bin/VaultGrab ( /usr/local/bin or a location in $PATH )
 
 #### Using access key and secret key
-The following will be return if authentication is successful:
+The following will be returned if authentication is successful:
 
-export AWS\_ACCESS\_KEY\_ID=ABCDEFGHILCZRG2MLYYS
-export AWS\_SECRET\_ACCESS\_KEY=aBCY/YTHJko1XXBfnLJEFNL8IHwhZk/hlFwcgzaHX
+* export AWS\_ACCESS\_KEY\_ID=ABCDEFGHILCZRG2MLYYS
+* export AWS\_SECRET\_ACCESS\_KEY=aBCY/YTHJko1XXBfnLJEFNL8IHwhZk/hlFwcgzaHX
 
 Running these as is will add the access key and secret key for the current session. Adding the value to ~/.bashrc and running -> source ~/.bashrc -> will add to all bash sessions. The key pair can be added to an aws cli profile by running -> aws configure --profile=PROFILE\_NAME.
 
