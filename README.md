@@ -8,7 +8,7 @@
 <p align="center">Need help with your Cloud builds <a href="https://www.cloud42.io/contact/" target="_blank" rel="ContactUS"> DROP US A LINE</a>.</p>
 
 ---
-#### Python3 script. Authenticates against a Hashicorp Vault endpoint using username and password. Returns an access key and secret key.
+Python3 script. Authenticates against a Hashicorp Vault endpoint using username and password. Returns an access key and secret key.
 
 #### Requirements
 
