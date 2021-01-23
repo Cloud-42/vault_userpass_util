@@ -16,3 +16,10 @@ Python3 script. Authenticates against a Hashicorp Vault endpoint using username 
 |------|---------|
 | Python | >= 3.6.8 |
 
+#### Add as a global command
+
+* git clone git@github.com:Cloud-42/vault\_userpass\_util.git
+* cd vault\_userpass\_util/
+* sudo cp VaultGrabKeyPair.py /usr/local/bin/VaultGrab ( /usr/local/bin or a location in $PATH )
+
+
