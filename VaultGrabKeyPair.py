@@ -35,7 +35,7 @@ def _vaultcreds():
   PASS = (user[1])
   try:
     client = hvac.Client(url=vault_addr)
-    client.auth_userpass(USER, PASS)
+    client.auth_userpass(USER.strip(), PASS)
     list_roles_response = client.secrets.aws.list_roles(mount_point='customaws')
     list_user_roles = list_roles_response['data']['keys']
     length = len(list_user_roles)
