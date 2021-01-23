@@ -8,8 +8,9 @@
 <p align="center">Need help with your Cloud builds <a href="https://www.cloud42.io/contact/" target="_blank" rel="ContactUS"> DROP US A LINE</a>.</p>
 
 ---
-#### Utility to grab AWS access and secret from Vault using username and password 
-Python script to authenticate against a Hashicorp Vault endpoint using username and password and return an access key and secret key.
+#### Python3 script :
+####     -> Authenticates against a Hashicorp Vault endpoint using username and password 
+####     -> returns an access key and secret key.
 
 #### Requirements
 
